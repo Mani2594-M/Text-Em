@@ -26,12 +26,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-41" y="93"/>
         </scene>
         <!--ChannelVC-->
         <scene sceneID="7VP-WO-HsT">
             <objects>
                 <viewController id="Hsn-DZ-beU" customClass="ChannelVC" customModule="Text_Em" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ijt-E0-01d">
+                    <view key="view" contentMode="scaleToFill" id="Ijt-E0-01d" customClass="GradientView" customModule="Text_Em" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
