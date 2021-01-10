@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A24609B7B2F435B9E658A17 /* Pods_Text_Em.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9771136E192606071C2839 /* Pods_Text_Em.framework */; };
+		3C7D46EB25AAB7E90019333A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D46EA25AAB7E90019333A /* SWRevealViewController.m */; };
 		3CD09BF325AAAFBD00198A8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD09BF225AAAFBD00198A8D /* AppDelegate.swift */; };
 		3CD09BF525AAAFBD00198A8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD09BF425AAAFBD00198A8D /* ViewController.swift */; };
 		3CD09BF825AAAFBD00198A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09BF625AAAFBD00198A8D /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C7D46E825AAB7E70019333A /* Text-Em-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Text-Em-Bridging-Header.h"; sourceTree = "<group>"; };
+		3C7D46E925AAB7E90019333A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3C7D46EA25AAB7E90019333A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		3CD09BEF25AAAFBD00198A8D /* Text-Em.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text-Em.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD09BF225AAAFBD00198A8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CD09BF425AAAFBD00198A8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,9 +53,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3C7D46E725AAB7CA0019333A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7D46E925AAB7E90019333A /* SWRevealViewController.h */,
+				3C7D46EA25AAB7E90019333A /* SWRevealViewController.m */,
+				3C7D46E825AAB7E70019333A /* Text-Em-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3CD09BE625AAAFBD00198A8D = {
 			isa = PBXGroup;
 			children = (
+				3C7D46E725AAB7CA0019333A /* Supporting Files */,
 				3CD09BF125AAAFBD00198A8D /* Text-Em */,
 				3CD09BF025AAAFBD00198A8D /* Products */,
 				1284D98B1B20F808F8C0E308 /* Pods */,
@@ -206,6 +221,7 @@
 			files = (
 				3CD09BF525AAAFBD00198A8D /* ViewController.swift in Sources */,
 				3CD09BF325AAAFBD00198A8D /* AppDelegate.swift in Sources */,
+				3C7D46EB25AAB7E90019333A /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +368,7 @@
 			baseConfigurationReference = 9466BE26CD439034C4A3E25F /* Pods-Text-Em.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUXP4M493C;
 				INFOPLIST_FILE = "Text-Em/Info.plist";
@@ -361,6 +378,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appworld.Text-Em";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Text-Em-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,6 +390,7 @@
 			baseConfigurationReference = C40DEBBCCC04EA2AAF006585 /* Pods-Text-Em.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUXP4M493C;
 				INFOPLIST_FILE = "Text-Em/Info.plist";
@@ -380,6 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appworld.Text-Em";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Text-Em-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
