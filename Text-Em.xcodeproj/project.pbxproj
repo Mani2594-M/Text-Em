@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,7 +46,6 @@
 				9466BE26CD439034C4A3E25F /* Pods-Text-Em.debug.xcconfig */,
 				C40DEBBCCC04EA2AAF006585 /* Pods-Text-Em.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,6 +122,7 @@
 				TargetAttributes = {
 					3CD09BEE25AAAFBD00198A8D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
